@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 60%;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  height: 200px;
+}
+
+.formInput input,
+.formButton {
+  width: 100%;
+  padding: 12px 8px;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 0.6rem;
+}
+.formTitle {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.formButton {
+  background-color: gold;
+  border: none;
+  cursor: pointer;
+  color: white;
+}

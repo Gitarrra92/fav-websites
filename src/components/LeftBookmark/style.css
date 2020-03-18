@@ -1,0 +1,13 @@
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 80%;
+  height: 100vh;
+  background: #f3f2f2;
+  justify-content: center;
+}
+
+.leftContent img {
+  width: 50%;
+}
